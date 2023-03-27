@@ -1,0 +1,65 @@
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todo-List {
+  min-width: 400px;
+}
+
+.Todo-List-Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  margin-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.Due-Date {
+  width: 5.325em;
+  display: flex;
+  padding: 4px;
+  justify-content: flex-start;
+}
+
+.Due-Date-Border {
+  border: 1px solid black;
+}
+
+.Header {
+  background: #2d334a;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.875em;
+}
+
+.Todo-List-Item.Complete {
+  background: #b6f9b4;
+}
+
+.Todo-List-Item.Incomplete {
+  background: #d9d9d9;
+}
+
+.Todo-List-Item.Overdue {
+  background: #f9bdb4;
+}
+
+.Todo-Desc {
+  padding-left: 8px;
+}
+
+.Desc-Complete {
+  text-decoration: line-through;
+}
+
+.Loading-Todo-Input {
+  cursor: wait;
+}
+
+.Todo-List {
+  list-style-type: none;
+}
